@@ -8,6 +8,7 @@ intro.to(".developer", {autoAlpha: 0, duration: 1});
 intro.to(".moon", {autoAlpha: 1, duration: 5});
 intro.to(".smokeRight", {autoAlpha: 1, duration: 3, ease: "power4", delay: -4.5});
 intro.to(".smokeRight", {duration: 30, left: "10rem", top: "-10rem", delay: -4.5});
+intro.to(".container", {autoAlpha: 1, duration: 1, delay: -29.8});
 intro.to(".smokeBottom", {autoAlpha: 1, duration: 3, delay: -30});
 intro.to(".smokeBottom", {duration: 30, left: "-10rem", delay: -27});
 intro.to("#title", {autoAlpha: 1, duration: 2, delay: -33});
