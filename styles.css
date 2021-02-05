@@ -1,0 +1,128 @@
+body {
+    background: black;
+    overflow: hidden;
+    margin: 0;
+}
+
+#slogan {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    color: white;
+    font-family: 'Imbue', serif;
+    font-weight: 100;
+    font-size: 4rem;
+    opacity: 0;
+}
+
+.developer {
+    color: white;
+    font-family: 'Imbue', serif;
+    font-weight: 100;
+    font-size: 4rem;
+    margin: 0px 10px 0px 10px;
+    opacity: 0;
+}
+
+#menu {
+    width: 100vw;
+    height: 100vh;
+}
+
+.moon {
+    opacity: 0;
+    position: absolute;
+    max-width: 220px;
+    top: 3rem;
+    left: 5rem;
+}
+
+.smokeRight {
+    position: absolute;
+    top: -2rem;
+    left: 1rem;
+    opacity: 0;
+}
+
+.smokeBottom {
+    position: absolute;
+    top: 3rem;
+    opacity: 0;
+}
+
+#title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.title {
+    color: white;
+    font-size: 12rem;
+    text-decoration: underline;
+    font-family: 'Imbue', serif;
+}
+
+#menuLinks {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+li {
+    color: white;
+    margin-bottom: 1rem;
+    min-width: 400px;
+    text-align: center;
+}
+
+.liOne {
+    position: relative;
+    opacity: 0;
+    right: 0;
+}
+
+.liTwo {
+    position: relative;
+    opacity: 0;
+    right: 0;
+}
+
+.liThree {
+    position: relative;
+    opacity: 0;
+    right: 0;
+}
+
+li.selected {
+    background: url("./images/menu-glow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}

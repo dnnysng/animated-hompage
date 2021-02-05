@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animated Homepage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <div class="container">
+        <div id="slogan">
+            <h1 class="slogan">A </h1>
+            <h1 class="developer"><strong>developer</strong></h1>
+            <h1 class="slogan"> specializing in web animations...</h1>
+        </div>
+        <div id="title">
+            <h1 class="title">MY PORTFOLIO</h1>
+        </div>
+        <div id="menu">
+            <img src="./images/moon.png" class="moon" alt="glowing moon">
+            <img src="./images/smoke-right.png" class="smokeRight" alt="smoke right side screen">
+            <img src="./images/smoke-bottom.png" class="smokeBottom" alt="smoke bottom screen">
+            <div id="menuLinks">
+                <ul>
+                    <li class="liOne selected"><a href="#">Project 1</a></li>
+                    <li class="liTwo"><a href="#">Project 2</a></li>
+                    <li class="liThree"><a href="#">Project 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
